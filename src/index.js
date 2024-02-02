@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { SessionContextProvider } from "@supabase/auth-helpers-react";
 import { createClient } from '@supabase/supabase-js';
 
-const supabase = createClient("https://edjbrydglnozrolenzam.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVkamJyeWRnbG5venJvbGVuemFtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDY2MzQ3NDIsImV4cCI6MjAyMjIxMDc0Mn0.v0B6KtFcSyO-gZWrJyVPndFH3x3hQnsz3sc0HDgfiqQ");
+const supabase = createClient("https://qblwiojuoomhztfilpug.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFibHdpb2p1b29taHp0ZmlscHVnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDY4NTMxOTgsImV4cCI6MjAyMjQyOTE5OH0._MxrZXqhf-DYRhvkaxKOHS5F0dEff_I3ScEswuMDTBQ");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
